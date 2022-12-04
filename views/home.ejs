@@ -1,0 +1,42 @@
+<html>
+<title>Info about medicines</title>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>searchbar</title>
+<link rel="stylesheet" href="style">
+</head>
+<body>
+<center>
+<div class="container">
+	<br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br>
+<form action="" class="search-bar" >
+<select onchange="temp(this.value)">
+	<option disabled selected>search anything</option>
+	<option value="stomachPain">stomachpain</option>
+	<option value="dizzyness">dizzyness</option>
+	<option value="eyePain">eyePain</option>
+	<option value="earPain">earPain</option>
+	<option value="throatPain">throatPain</option>
+	<option value="breastPain">breastPain</option>
+	<option value="diarrhoea">Diarrhoea</option>
+	<option value="periodPain">periodPain</option>
+	<option value="skinAllergies">skinAllergies</option>
+	<option value="vomiting">vomiting</option>
+	<option value="fever">fever</option>
+	<option value="bodyPain">bodyPain</option>
+	<option value="headache">headache</option>
+	<option value="cold">cold</option>
+</center>	
+	</select>
+		<script>
+			function temp(src){
+				window.location=src;
+			}
+		</script>
+<button type="submit"></button>
+
+</form>
+</div>
+</body>
+</html>
